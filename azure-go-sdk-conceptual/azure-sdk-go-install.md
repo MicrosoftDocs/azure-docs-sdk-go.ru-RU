@@ -8,11 +8,11 @@ ms.date: 01/30/2018
 ms.topic: article
 ms.devlang: go
 manager: routlaw
-ms.openlocfilehash: f822a9304a4744e0b0e93286303aa8bb80fec852
-ms.sourcegitcommit: aaa8c37880332625f858a38f5918e6cf581bf48d
+ms.openlocfilehash: 7fc0a3ff71b0b06f616ae43cff311352fe873345
+ms.sourcegitcommit: 890f5f01a70e7e376e6bb98a2030afbfc016f538
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="installing-the-azure-sdk-for-go"></a>Установка пакета Azure SDK для Go
 
@@ -30,7 +30,7 @@ go get -u -d github.com/Azure/azure-storage-blob-go/...
 
 ## <a name="vendoring-the-azure-sdk-for-go"></a>Вендоринг пакета Azure SDK для Go
 
-Выполнить вендоринг пакета Azure SDK для Go можно с помощью средства [dep](https://github.com/golang/dep). Чтобы обеспечить стабильность, мы рекомендуем использовать вендоринг. Для поддержки `dep` добавьте `gitub.com/Azure/azure-sdk-for-go` в раздел `[[constraint]]` файла `Gopkg.toml`. Например, чтобы выполнить вендоринг для версии `14.0.0`, добавьте следующую запись:
+Выполнить вендоринг пакета Azure SDK для Go можно с помощью средства [dep](https://github.com/golang/dep). Чтобы обеспечить стабильность, мы рекомендуем использовать вендоринг. Для поддержки `dep` добавьте `github.com/Azure/azure-sdk-for-go` в раздел `[[constraint]]` файла `Gopkg.toml`. Например, чтобы выполнить вендоринг для версии `14.0.0`, добавьте следующую запись:
 
 ```
 [[constraint]]
