@@ -1,4 +1,5 @@
-Пакет Azure SDK для Go совместим с Go 1.8 и более поздней версии. Для окружений, в которых используются [профили Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-version-profiles), требуется Go версии не ниже 1.9. Если вы еще не установили Go, выполните [инструкции по установке Go](https://golang.org/doc/install).
+[Пакет Azure SDK для Go](https://github.com/Azure/azure-sdk-for-go) совместим с Go 1.8 и более поздних версий. Для окружений, в которых используются [профили Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-version-profiles), требуется Go версии не ниже 1.9.
+Если вы еще не установили Go, выполните [инструкции по установке Go](https://golang.org/doc/install).
 
 Вы можете получить пакет Azure SDK для Go и его зависимости с помощью команды `go get`.
 
