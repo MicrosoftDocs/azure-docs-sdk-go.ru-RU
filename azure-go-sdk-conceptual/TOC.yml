@@ -7,6 +7,8 @@ items:
         href: azure-sdk-go-install.md
       - name: Средства
         href: azure-sdk-go-tools.md
+      - name: Authentication
+        href: azure-sdk-go-authorization.md
   - name: Краткие руководства по использованию пакета SDK для Go
     items:
       - name: Виртуальные машины и шаблоны ресурсов
