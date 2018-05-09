@@ -3,15 +3,17 @@ title: Установка пакета Azure SDK для Go
 description: Сведения о том, как выполнить установку, вендоринг и настройку пакета Azure SDK для Go.
 author: sptramer
 ms.author: sttramer
-ms.date: 03/14/2018
-ms.topic: article
-ms.devlang: go
 manager: carmonm
-ms.openlocfilehash: a6a92e080aea1a92f47a9d7083f133ca05a47541
-ms.sourcegitcommit: 26520a8c6e812facb5b9432d68c370fa23c99888
+ms.date: 03/14/2018
+ms.topic: conceptual
+ms.prod: azure
+ms.technology: azure-sdk-go
+ms.devlang: go
+ms.openlocfilehash: ad77bdff881770512a828b19dc7af4821f4a55ad
+ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-the-azure-sdk-for-go"></a>Установка пакета Azure SDK для Go
 
@@ -62,7 +64,7 @@ import "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-03-30/compu
 
 На этом этапе рекомендуется использовать последнюю версию службы, если у вас нет причин поступить иначе.
 
-Если требуется общий моментальный снимок служб, вы также можете выбрать одну версию профиля. В нашем случае версия `2017-03-30` относится только к заблокированному профилю, который может не содержать последние версии служб и функций. Профили находятся в папке модуля `profiles` вместе с версиями в формате `YYYY-MM-DD`. Службы группируются по версиям профиля. Например, чтобы импортировать модуль управления ресурсами Azure из профиля `2017-03-09`, используйте следующий код:
+Если требуется общий моментальный снимок служб, вы также можете выбрать одну версию профиля. В нашем случае версия `2017-03-09` относится только к заблокированному профилю, который может не содержать последние версии служб и функций. Профили находятся в папке модуля `profiles` вместе с версиями в формате `YYYY-MM-DD`. Службы группируются по версиям профиля. Например, чтобы импортировать модуль управления ресурсами Azure из профиля `2017-03-09`, используйте следующий код:
 
 ```go
 import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/resources/mgmt/resources"

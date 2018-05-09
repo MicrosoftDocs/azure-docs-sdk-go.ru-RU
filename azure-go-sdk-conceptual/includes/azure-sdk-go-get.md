@@ -1,3 +1,17 @@
+---
+author: sptramer
+ms.author: sttramer
+manager: carmonm
+ms.date: 02/14/2018
+ms.topic: include
+ms.prod: azure
+ms.technology: azure-cli
+ms.openlocfilehash: ddd58efdbc0c2d3ded068a9bebf2466db702566f
+ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/03/2018
+---
 [Пакет Azure SDK для Go](https://github.com/Azure/azure-sdk-for-go) совместим с Go 1.8 и более поздних версий. Для окружений, в которых используются [профили Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-version-profiles), требуется Go версии не ниже 1.9.
 Если вы еще не установили Go, выполните [инструкции по установке Go](https://golang.org/doc/install).
 
