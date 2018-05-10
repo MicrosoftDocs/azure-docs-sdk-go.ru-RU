@@ -4,16 +4,19 @@ description: Сведения о методах аутентификации, д
 services: azure
 author: sptramer
 ms.author: sttramer
-ms.date: 04/03/2018
-ms.topic: article
-ms.service: azure
-ms.devlang: go
 manager: carmonm
-ms.openlocfilehash: 39f9dc5a7cdf9ab84cfd9264446bacb31392ca80
-ms.sourcegitcommit: 59d2b4c9d8da15fbbd15e36551093219fdaf256e
+ms.date: 04/03/2018
+ms.topic: conceptual
+ms.prod: azure
+ms.technology: azure-sdk-go
+ms.devlang: go
+ms.service: active-directory
+ms.component: authentication
+ms.openlocfilehash: 370f5607b89c0044022f7987d06c3a55c9d6f352
+ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="authentication-methods-in-the-azure-sdk-for-go"></a>Методы аутентификации в пакете Azure SDK для Go
 
@@ -84,6 +87,27 @@ ms.lasthandoff: 04/18/2018
 import "github.com/Azure/go-autorest/autorest/azure/auth"
 authorizer, err := auth.NewAuthorizerFromEnvironment()
 ```
+
+### <a name="authentication-on-azure-stack"></a>Аутентификация в Azure Stack
+
+Для аутентификации в Azure Stack нужно задать следующие переменные:
+
+| Переменная среды | ОПИСАНИЕ  |
+|----------------------|--------------|
+| `AZURE_AD_ENDPOINT` | Конечная точка Azure Active Directory |
+| `AZURE_AD_RESOURCE` | Идентификатор ресурса Active Directory |
+
+Эти переменные можно извлечь из метаданных Azure Stack. Чтобы получить метаданные, откройте веб-браузер в среде Azure Stack и перейдите по URL-адресу `(ResourceManagerURL)/metadata/endpoints?api-version=1.0`.
+
+`ResourceManagerURL` зависит от названия региона, имени компьютера и внешнего полного доменного имени (FQDN) для конкретного развертывания Azure Stack:
+
+| Среда | ResourceManagerURL |
+|----------------------|--------------|
+| Комплект разработки | `https://management.local.azurestack.external/` |
+| Интегрированные системы | `https://management.(region).ext-(machine-name).(FQDN)` |
+
+Дополнительные сведения о том, как использовать пакет SDK Azure для Go в Azure Stack, см. в статье [Использование профилей версий API и Go в Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-version-profiles-go).
+
 
 ## <a name="use-file-based-authentication"></a>Использование аутентификации на основе файла
 
