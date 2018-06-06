@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.prod: azure
 ms.technology: azure-sdk-go
 ms.devlang: go
-ms.openlocfilehash: 2ea44fb8a4fdd6098bb44d3b5092cfbc352b424d
-ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
+ms.openlocfilehash: 1e122ab161766023ea146329a5edb13143699b8b
+ms.sourcegitcommit: b81b17cbb934399c195bfdcb87137aee935f5234
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755538"
 ---
 # <a name="tools-for-developers-using-the-azure-sdk-for-go"></a>Средства для разработчиков, использующих пакет Azure SDK для Go
 
@@ -40,10 +41,3 @@ Visual Studio Code — это упрощенных редактор, котор�
 
 > [!div class="nextstepaction"]
 > [Получить диспетчер зависимостей dep](https://github.com/tools/godep)
-
-## <a name="telemetry-with-application-insights"></a>Телеметрия в Application Insights
-
-[Application Insights](https://azure.microsoft.com/en-us/services/application-insights/) — это решение для аналитики, которое позволяет легко собирать данные телеметрии из приложений. Оно интегрируется с экосистемой Azure, Visual Studio Team Services и GitHub. Это решение можно использовать во многих приложениях. Корпорация Майкрософт также предоставляет пакет SDK для Go, который можно использовать с Application Insights.
-
-> [!div class="nextstepaction"]
-> [Получить пакет SDK Application Insights для Go](https://github.com/Microsoft/ApplicationInsights-Go) 
