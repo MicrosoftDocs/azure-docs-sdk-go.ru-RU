@@ -10,16 +10,16 @@ ms.prod: azure
 ms.technology: azure-sdk-go
 ms.service: virtual-machines
 ms.devlang: go
-ms.openlocfilehash: 1fbcc54df2a2aebce56c5a5800361f3d3aed1ccc
-ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
+ms.openlocfilehash: 7592e8617436a76dd27cac5269971051982425bf
+ms.sourcegitcommit: 181d4e0b164cf39b3feac346f559596bd19c94db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32319940"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38067022"
 ---
 # <a name="quickstart-deploy-an-azure-virtual-machine-from-a-template-with-the-azure-sdk-for-go"></a>Краткое руководство по развертыванию виртуальной машины Azure из шаблона с помощью пакета Azure SDK для Go
 
-В этом кратком руководстве описано, как развертывать ресурсы из шаблона с помощью пакета Azure SDK для Go. Шаблоны — это моментальные снимки всех ресурсов, содержащихся в [группе ресурсов Azure](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview). Выполняя эту задачу, вы также ознакомитесь с функциями и соглашениями пакета SDK.
+В этом кратком руководстве описано, как развертывать ресурсы из шаблона с помощью пакета Azure SDK для Go. Шаблоны — это моментальные снимки всех ресурсов, содержащихся в [группе ресурсов Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview). Выполняя эту задачу, вы также ознакомитесь с функциями и соглашениями пакета SDK.
 
 По завершении работы с этим кратким руководством у вас будет запущенная виртуальная машина, в которую можно войти с помощью имени пользователя и пароля.
 
@@ -35,8 +35,7 @@ ms.locfileid: "32319940"
 
 ## <a name="create-a-service-principal"></a>Создание субъекта-службы
 
-
-Чтобы войти в систему не в интерактивном режиме с помощью приложения, вам понадобится субъект-служба. Субъекты-службы помогают выполнять управление доступом на основе ролей, что предусматривает создание уникальных удостоверений пользователя. Чтобы создать субъект-службу с помощью CLI, выполните следующую команду:
+Чтобы войти в Azure не в интерактивном режиме с помощью приложения, вам понадобится субъект-служба. Субъекты-службы помогают выполнять управление доступом на основе ролей, что предусматривает создание уникальных удостоверений пользователя. Чтобы создать субъект-службу с помощью CLI, выполните следующую команду:
 
 ```azurecli-interactive
 az ad sp create-for-rbac --name az-go-vm-quickstart --sdk-auth > quickstart.auth
