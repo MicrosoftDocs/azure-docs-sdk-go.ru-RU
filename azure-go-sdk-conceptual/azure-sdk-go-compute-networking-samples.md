@@ -10,12 +10,12 @@ ms.prod: azure
 ms.technology: azure-sdk-go
 ms.service: virtual-machines
 ms.devlang: go
-ms.openlocfilehash: 4837572a50ae934e71bfe49d916c01e131bb6d83
-ms.sourcegitcommit: f08abf902b48f8173aa6e261084ff2cfc9043305
+ms.openlocfilehash: 3b31716ee42c638bab4a6dd99b9eb0d7c07e51a4
+ms.sourcegitcommit: 0f581979216f7c9d4913681a6d9f6fe09af26e43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32319702"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475795"
 ---
 # <a name="azure-sdk-for-go-samples-for-compute-and-networking"></a>Пакет Azure SDK для примеров Go для вычислений и сетевого взаимодействия
 
@@ -26,5 +26,7 @@ ms.locfileid: "32319702"
 | ИМЯ | ОПИСАНИЕ |
 |------|-------------|
 | [network/network](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/network/network.go) | Создание, обновление и удаление сетевых ресурсов, включая виртуальные сети, подсети и группы безопасности сети, а также выполнение запросов к ним. |
-| [compute/loadbalancer](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/loadbalancer.go) | Создание групп доступности и выполнение запросов к ним, а также создание виртуальных машин с балансировкой нагрузки. |
-| [compute/compute](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/compute.go) | Создание, удаление, обновление и администрирование виртуальных машин. Работа с дисками данных и управление диском операционной системы виртуальной машины. |
+| [compute/vm_disk](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_disk.go) | Создание, присоединение, отсоединение, обновление и шифрование дисков данных для виртуальной машины. |
+| [compute/vm](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm.go) | Создание, удаление, деактивация и администрирование виртуальных машин. |
+| [compute/vm_with_availabilityset](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_with_availabilityset.go) | Создание групп доступности и подсистем балансировки нагрузки для виртуальных машин. |
+| [compute/vm_with_identity](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_with_identity.go) | Создание и администрирование Управляемых удостоверений службы (MSI) для виртуальных машин. |

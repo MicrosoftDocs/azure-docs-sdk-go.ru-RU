@@ -10,12 +10,12 @@ ms.prod: azure
 ms.technology: azure-sdk-go
 ms.service: active-directory
 ms.devlang: go
-ms.openlocfilehash: 278ee81e180287abf3152779821b7dfb76a487e3
-ms.sourcegitcommit: 2a3bd491e087a1d0e7d269bed896c029357d62a6
+ms.openlocfilehash: dfaed972f23daa92fcec686cf34ee636aa624b9a
+ms.sourcegitcommit: 0f581979216f7c9d4913681a6d9f6fe09af26e43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "38988013"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475880"
 ---
 # <a name="azure-sdk-for-go-samples-for-authentication-and-aad"></a>Пакет Azure SDK для примеров Go для аутентификации и AAD
 
@@ -25,6 +25,6 @@ ms.locfileid: "38988013"
 
 | ИМЯ | ОПИСАНИЕ |
 |------|-------------|
-| [iam/oauth](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/iam/oauth.go) | Аутентификация с помощью служб Azure для работы со службами. |
-| [authorization/auth](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/authorization/auth.go) | Добавление, удаление и проверка ролей AAD. |
+| [internal/iam/authorizers](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/internal/iam/authorizers.go) | Аутентификация с помощью служб Azure для работы со службами. |
+| [authorization/authorization](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/authorization/authorization.go) | Добавление, удаление и проверка ролей AAD. |
 | [graphrbac/graph](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/graphrbac/graph.go) | Проверка и создание субъектов-служб и приложений AAD. Добавление секретов к существующему субъекту-службе или приложению. |
