@@ -2,21 +2,21 @@
 author: sptramer
 ms.author: sttramer
 manager: carmonm
-ms.date: 02/14/2018
+ms.date: 09/05/2018
 ms.topic: include
 ms.prod: azure
 ms.technology: azure-cli
-ms.openlocfilehash: d021dd8ef4744b7c50b296b231bf63481f92411a
-ms.sourcegitcommit: 2a3bd491e087a1d0e7d269bed896c029357d62a6
+ms.openlocfilehash: 5df14f939efdd0550b49261c88c8dc6518ada459
+ms.sourcegitcommit: 8b9e10b960150dc08f046ab840d6a5627410db29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "38988074"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44059277"
 ---
-[Пакет Azure SDK для Go](https://github.com/Azure/azure-sdk-for-go) совместим с Go 1.8 и более поздних версий. Для окружений, в которых используются [профили Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-version-profiles), требуется Go версии не ниже 1.9.
-Если вы еще не установили Go, выполните [инструкции по установке Go](https://golang.org/doc/install).
+[Пакет Azure SDK для Go](https://github.com/Azure/azure-sdk-for-go) совместим с Go версии 1.8 и выше. Для окружений, в которых используются [профили Azure Stack](/azure/azure-stack/user/azure-stack-version-profiles-go), требуется Go версии не ниже 1.9.
+Чтобы установить Go, следуйте [соответствующим инструкциям](https://golang.org/doc/install).
 
-Вы можете получить пакет Azure SDK для Go и его зависимости с помощью команды `go get`.
+Вы можете скачать пакет Azure SDK для Go и его зависимости с помощью команды `go get`.
 
 ```bash
 go get -u -d github.com/Azure/azure-sdk-for-go/...

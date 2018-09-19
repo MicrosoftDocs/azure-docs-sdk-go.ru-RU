@@ -4,22 +4,21 @@ description: Выбранные примеры для работы с таким
 author: sptramer
 ms.author: sttramer
 manager: carmonm
-ms.date: 03/21/2018
+ms.date: 09/05/2018
 ms.topic: sample
-ms.prod: azure
 ms.technology: azure-sdk-go
 ms.service: virtual-machines
 ms.devlang: go
-ms.openlocfilehash: 3b31716ee42c638bab4a6dd99b9eb0d7c07e51a4
-ms.sourcegitcommit: 0f581979216f7c9d4913681a6d9f6fe09af26e43
+ms.openlocfilehash: d570ad8598ae06633d0010245c207641161ee446
+ms.sourcegitcommit: 8b9e10b960150dc08f046ab840d6a5627410db29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475795"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44059090"
 ---
 # <a name="azure-sdk-for-go-samples-for-compute-and-networking"></a>Пакет Azure SDK для примеров Go для вычислений и сетевого взаимодействия
 
-В следующей таблице представлены ссылки на выбранные примеры исходного кода Go, который можно использовать для управления виртуальными машинами, виртуальными сетями и подсетями в Azure. 
+В следующей таблице представлены ссылки на выбранные примеры управления вычислительными ресурсами и ресурсами виртуальной сети в пакете Azure SDK для Go.
 
 Все примеры для пакета Azure SDK для Go доступны в репозитории [GitHub](https://github.com/Azure-Samples/azure-sdk-for-go-samples).
 

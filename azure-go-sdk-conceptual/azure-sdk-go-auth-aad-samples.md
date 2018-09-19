@@ -4,22 +4,21 @@ description: Выбранные примеры для работы с Azure Acti
 author: sptramer
 ms.author: sttramer
 manager: carmonm
-ms.date: 03/21/2018
+ms.date: 09/05/2018
 ms.topic: sample
-ms.prod: azure
 ms.technology: azure-sdk-go
 ms.service: active-directory
 ms.devlang: go
-ms.openlocfilehash: dfaed972f23daa92fcec686cf34ee636aa624b9a
-ms.sourcegitcommit: 0f581979216f7c9d4913681a6d9f6fe09af26e43
+ms.openlocfilehash: ace50d88ac57622b90e4070a6ca8d6fc0a52afac
+ms.sourcegitcommit: 8b9e10b960150dc08f046ab840d6a5627410db29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475880"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44059226"
 ---
 # <a name="azure-sdk-for-go-samples-for-authentication-and-aad"></a>Пакет Azure SDK для примеров Go для аутентификации и AAD
 
-В следующей таблице представлены ссылки на выбранные примеры исходного кода Go, который можно использовать для аутентификации с помощью Azure SDK для Go и работы со службами Azure Active Directory (AAD).
+В следующей таблице представлены ссылки на выбранные примеры аутентификации и использования Azure Active Directory из пакета Azure SDK для Go.
 
 Все примеры для пакета Azure SDK для Go доступны в репозитории [GitHub](https://github.com/Azure-Samples/azure-sdk-for-go-samples).
 
