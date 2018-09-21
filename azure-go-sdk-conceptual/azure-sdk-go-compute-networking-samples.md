@@ -9,12 +9,12 @@ ms.topic: sample
 ms.technology: azure-sdk-go
 ms.service: virtual-machines
 ms.devlang: go
-ms.openlocfilehash: d570ad8598ae06633d0010245c207641161ee446
-ms.sourcegitcommit: 8b9e10b960150dc08f046ab840d6a5627410db29
+ms.openlocfilehash: 20c264157905ea870b8c432d64a204974a1bc964
+ms.sourcegitcommit: c435f6602524565d340aac5506be5e955e78f16c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "44059090"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44711963"
 ---
 # <a name="azure-sdk-for-go-samples-for-compute-and-networking"></a>Пакет Azure SDK для примеров Go для вычислений и сетевого взаимодействия
 
@@ -28,4 +28,4 @@ ms.locfileid: "44059090"
 | [compute/vm_disk](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_disk.go) | Создание, присоединение, отсоединение, обновление и шифрование дисков данных для виртуальной машины. |
 | [compute/vm](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm.go) | Создание, удаление, деактивация и администрирование виртуальных машин. |
 | [compute/vm_with_availabilityset](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_with_availabilityset.go) | Создание групп доступности и подсистем балансировки нагрузки для виртуальных машин. |
-| [compute/vm_with_identity](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_with_identity.go) | Создание и администрирование Управляемых удостоверений службы (MSI) для виртуальных машин. |
+| [compute/vm_with_identity](https://github.com/Azure-Samples/azure-sdk-for-go-samples/blob/master/compute/vm_with_identity.go) | Создание и изменение управляемых удостоверений для ресурсов Azure. | 
