@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: azure
 ms.technology: azure-sdk-go
 ms.devlang: go
-ms.openlocfilehash: 013a771345d96f0fa8dbece3218a01650744f70b
-ms.sourcegitcommit: 8b9e10b960150dc08f046ab840d6a5627410db29
+ms.openlocfilehash: 7990ec8bde5622078aa822fc7e66ba5c4384d682
+ms.sourcegitcommit: 3d26b464f196f8675c636ae792637d4c882fb92c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "44059192"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52337149"
 ---
 # <a name="install-the-azure-sdk-for-go"></a>Установка пакета Azure SDK для Go
 
@@ -90,7 +90,7 @@ import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/resources/mgmt/res
 
 Чтобы сразу приступить к работе с другими службами с помощью пакета SDK для Go, ознакомьтесь с доступными примерами кода.
 
-* [Аутентификация с помощью служб Azure](https://github.com/Azure-Samples/azure-sdk-for-go-samples/tree/master/iam)
+* [Аутентификация с помощью служб Azure](https://github.com/Azure-Samples/azure-sdk-for-go-samples/tree/master/internal/iam)
 * [Развертывание новых виртуальных машин с использованием аутентификации по SSH](https://github.com/Azure-Samples/azure-sdk-for-go-samples/tree/master/compute)
 * [Развертывание образа контейнера в службе "Экземпляры контейнеров Azure"](https://github.com/Azure-Samples/azure-sdk-for-go-samples/tree/master/containerinstance)
 * [Создание кластера в службе Azure Kubernetes](https://github.com/Azure-Samples/azure-sdk-for-go-samples/tree/master/containerservice)
